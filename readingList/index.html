@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TBR: books!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js" type="module"></script>
+  </head>
+  <body>
+    <nav id="nav" class="flex justify-center">
+      <img class="icon" src="images/open-book.png" />
+      <h1 class="page-title center-text">Your Reading List</h1>
+    </nav>
+    <main>
+      <section id="tbr">
+        <h2>Reading List:</h2>
+        <div id="tbrList"></div>
+        <!-- <div class="list-item">
+          <h2 class="grid-a">Title</h2>
+          <h4 class="grid-b">Author</h4>
+          <p class="grid-c">
+            Short summary...It is a truth universally acknowledged, that a
+            single man in possession of a good fortune, must be in want of a
+            wife.
+          </p>
+          <button class="grid-d">remove</button>
+          <label class="grid-e"><input type="checkbox" />Finished!</label>
+        </div> -->
+      </section>
+
+      <section id="search">
+        <form id="form" class="search-bar">
+          <input
+            id="query"
+            type="search"
+            name="query"
+            placeholder="book title"
+          />
+          <input id="submit" type="submit" />
+        </form>
+        <h2>Search Results: <span id="searchQuery"></span></h2>
+        <div class="results"></div>
+        <!-- < class="search-result">
+          <img class="grid-i book-cover" src="images/books-tea.jfif" />
+          <h2 class="book-title grid-a">Title</h2>
+          <h4 class="author grid-b">Author</h4>
+          <p class="short-summary grid-c">
+            Summary...In a hole in the ground there lived a hobbit. Not a nasty,
+            dirty, wet hole, filled with the ends of worms and an oozy smell,
+            nor yet a dry, bare, sandy hole with nothing in it to sit down on or
+            to eat: it was a hobbit-hole, and that means comfort.
+          </p>
+          <button class="grid-d">add</button>
+        </div> -->
+      </section>
+    </main>
+  </body>
+</html>
