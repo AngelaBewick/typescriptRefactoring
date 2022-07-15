@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "outDir": "./output",
+      "allowJs": true,
+      "target": "es6",
+      "lib": ["ES2017", "DOM", "es2015.promise"]
+    },
+    "include": ["./src/**/*"],
+  }
